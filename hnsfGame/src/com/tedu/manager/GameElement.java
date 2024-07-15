@@ -1,0 +1,22 @@
+package com.tedu.manager;
+
+public enum GameElement {
+	/**
+	 * PLAY 玩家
+	 * MAPS 地图
+	 * ENEMY 敌人
+	 * BOSS boss
+	 * PLAYFILE 子弹类型
+	 * DIE 死亡敌人
+	 */
+//	与绘画顺序对应
+	//目前该顺序保证了地形覆盖玩家，子弹覆盖地形
+	PLAY2,PLAY,ENEMY,BOSS,BASE,MAPS,ENEMYFILE,PLAYFILE,DIE,TOOLS,DEATHANIMATION,GOALS,HPSHOW,UIBACKGROUND,BEGINBUTTON,LEVELBUTTON,SINGLEPLAYERBUTTON,MULTIPLAYERBUTTON,INSTRUCTION,LEVELOVER,PAUSE,FAILGAME,BACKBUTTON,RESUMEBUTTON,RESTARTBUTTON,NEXTBUTTON,MAINBACKBUTTON //枚举类型的顺序是声明顺序
+	
+	
+//	我们定义的枚举类型，在编译的时候，虚拟机会自动生成class 文件
+//	枚举类型对比
+	
+
+
+}

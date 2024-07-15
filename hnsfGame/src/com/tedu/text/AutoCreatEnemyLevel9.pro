@@ -1,0 +1,1 @@
+enemy=380,440,botdown,1000;200,440,botdown,500;560,440,botdown,500
